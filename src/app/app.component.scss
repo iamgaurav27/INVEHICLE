@@ -1,0 +1,62 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+  
+  
+
+  footer {
+    padding: 50px 0;
+  }
+  
+  footer h4 {
+    margin-bottom: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    
+    text-decoration: none;
+  }
+  
+  .bg-dark {
+    background-color: #333;
+    color: #fff;
+    
+  }
+
+  footer .fa-2x {
+    margin-right: 10px;
+  }
+
+  footer .fa-2x:active {
+    color: red;
+  }
+
+  footer .fa-2x:hover {
+    color: aqua;
+  }
+
+  
+  footer .fa-2x {
+    animation: rotate 8s;
+  }
+  
+  @keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
