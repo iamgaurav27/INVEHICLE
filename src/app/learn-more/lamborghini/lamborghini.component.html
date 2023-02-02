@@ -1,0 +1,303 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="lamborghini.component.scss">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fuel-pump" viewBox="0 0 16 16">
+        <path d="M3 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5Z"/>
+        <path d="M1 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v8a2 2 0 0 1 2 2v.5a.5.5 0 0 0 1 0V8h-.5a.5.5 0 0 1-.5-.5V4.375a.5.5 0 0 1 .5-.5h1.495c-.011-.476-.053-.894-.201-1.222a.97.97 0 0 0-.394-.458c-.184-.11-.464-.195-.9-.195a.5.5 0 0 1 0-1c.564 0 1.034.11 1.412.336.383.228.634.551.794.907.295.655.294 1.465.294 2.081v3.175a.5.5 0 0 1-.5.501H15v4.5a1.5 1.5 0 0 1-3 0V12a1 1 0 0 0-1-1v4h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V2Zm9 0a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v13h8V2Z"/>
+      </svg>
+</head>
+
+<body>
+    
+    <div>
+
+        <section id="sec1">
+
+            <div class="container">
+
+              <div class="row" id="bar">
+
+                <div class="col" id="barC"><h3 (click)="toOverview()" class="hod" >Overview</h3></div>
+
+                <div class="col" id="barC"><h3 (click)="toKey()" class="hod">KeySpace</h3></div>
+
+                <div class="col" id="barC"><h3 (click)="toSummary()" class="hod">Summary</h3></div>
+
+                <div class="col" id="barC"><h3 (click)="toColours()" class="hod">Colours</h3></div>
+
+                <div class="col" id="barC"><h3 (click)="toMileage()" class="hod">Mileage</h3></div>
+
+              </div>
+
+            </div>
+              <hr>
+
+        </section>
+
+        <section id="sec2">
+
+          <div class="row justify-content-center">
+
+              <div class="col-6" id="oc">
+
+                <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/14054/huracan-evo-exterior-right-front-three-quarter-2.jpeg?q=75" alt="car">
+
+              </div>
+
+              <div class="col-4" id="oc">
+
+                <div class="text-center">
+
+               
+
+                    <div class="card-body">
+                      
+                      <h2 class="card-title"> Lamborghini Huracan Evo</h2>
+                      <h2 class="card-title">₹ 3.22 Crore</h2>
+
+                      <p class="card-text">Avg. Ex-Showroom price</p>
+
+                      <a href="#" class="btn btn-primary">Show price in my city</a>
+                      <br>
+                      We expect that the Huracan will priced in the range of Rs 1.8 crore to Rs 2.5 crore and will compete with the Audi R8, BMW M6 Gran Coupe and the Porsche 911.
+
+                    </div>
+
+                </div>
+
+              </div>
+
+          </div>
+
+        </section >
+
+
+
+        <section id="sec3">
+
+        <div class="container" id="KeyS" >
+
+        <div class="col-md-8"><h2>Lamborghini Huracan Evo Key Specifications</h2></div>
+
+            <div class="row row-cols-2 row-cols-lg-3" id="box">
+                
+              <div class="col" id="keyC">
+                <i class="bi bi-fuel-pump"></i>
+                Fuel Type
+
+               <h4>Petrol</h4></div>
+
+              <div class="col" id="keyC">
+                <img src="image.png" alt=""> Engine
+
+              <h4>5204 cc</h4></div>
+
+              <div class="col" id="keyC">Power and Torque
+
+               <h4>610 bhp and 560 Nm</h4></div>
+
+              <div class="col" id="keyC">Transmission
+
+               <h4>Automatic(DCT)</h4></div>
+
+              <div class="col" id="keyC">Acceleration
+
+               <h4>5.4 seconds</h4></div>
+
+              <div class="col" id="keyC">Seating Capacity
+
+               <h4>2 Seater</h4></div>
+
+           
+
+            </div>
+
+        </div>
+
+        </section >
+
+        <hr>
+        <section id="sec4">
+
+              <div class="row justify-content-evenly">
+
+                    <div class="col-4">
+
+                      <h2>Lamborghini Huracan Evo Summary</h2>
+
+                    </div>
+
+                    <div class="col-4">
+
+                      <h2>Price in India</h2>
+
+                    </div>
+
+                  </div>
+
+            <div class="row justify-content-evenly">
+
+              <div class="col-4" id="sum">
+
+                <h4>Price</h4>Lamborghini Huracan Evo price ranges between ₹ 3.22 Crore - ₹ 3.73 Crore depending on the variant selected.
+
+                <h4>Market introduction:</h4>The Lamborghini Gallardo has been the Italian automaker’s most successful car to date with a total production of 14,002 units in its 10-year life span. When it announced that the Gallardo was being retired, many said that the successor had big shoes to fill and would probably have to just as crazy as the Gallardo was when it was launched. It seems that after all the hype Lamborghini has not disappointed when it launched the Huracan LP 610-4 in April of this year. It is now bringing the car to India and will launch it on September 22.
+
+                <h4>Variants:</h4>The Lamborghini has two variants, Huracan Evo RWD which is of range 3.22 Crore and Huracan Evo AWD of range 3.73 Crore.We expect that the Huracan will priced in the range of Rs 1.8 crore to Rs 2.5 crore and will compete with the Audi R8, BMW M6 Gran Coupe and the Porsche 911.
+              
+                <h4>Engine and transmission:</h4>The Huracan is powered by a 5.2-litre V10 that produces 610bhp, 560Nm of torque and sends power to all four-wheels via a four-wheel-drive system and seven-speed dual clutch gearbox. The car can sprint to 100 kmph from standstill in 3.2 seconds and the 0 to 200kmph run can be done in 9.9 seconds with a claimed top-speed of 325kmph. The Huracan features stop-start technology as standard and has CO2 emissions as low as 290 g/km.
+
+                <h4>Interior :</h4>The Huracan gets an interior very similar to that of the much larger Aventador but the layout looks a little more organised thanks to the wider size of the instrument cluster. There is a large array of toggle switches on both sides of the steering wheel while the paddles behind the wheel are massive giving the impression of an extremely busy area. If we observe the design, then we can see that the car is all about being driver oriented.
+
+              </div>
+
+              <div class="col-4">   
+
+            <table class="table">
+
+                <thead>
+
+                  <tr>
+
+                    <th scope="col" >#</th>
+
+                    <th scope="col">City</th>
+
+                    <th scope="col">On-road Price</th>
+
+                  </tr>
+
+                </thead>
+
+                <tbody>
+
+                  <tr>
+
+                    <th scope="row">1</th>
+
+                    <td>Mumbai</td>
+
+                    <td>Rs: 3.80 Crore onwards</td>
+
+                   
+
+                  </tr>
+
+                  <tr>
+
+                    <th scope="row">2</th>
+
+                    <td>Delhi</td>
+
+                    <td>Rs: 3.71 Crore onwards</td>
+
+                  </tr>
+
+                  
+                </tbody>
+
+            </table>
+
+              </div>
+
+            </div>
+
+
+
+        </section>
+
+        <hr>
+
+        <section id="sec5">
+
+         
+
+        <div class="col-md-8"><h2>Colours :</h2></div>
+        <div class="row">
+        <div class="col-3">
+            <img src="https://imgd.aeplcdn.com/600x337/n/38on6sa_1475628.jpg?q=75" class="img-thumbnail" alt="...">
+        </div>
+      
+        <div class="col-3">
+            <img src="https://imgd.aeplcdn.com/600x337/n/736n6sa_1475629.jpg?q=75" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col-3">
+            <img src="https://imgd.aeplcdn.com/600x337/n/wrvn6sa_1475639.jpg?q=75" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col-3">
+            <img src="https://imgd.aeplcdn.com/600x337/n/neao6sa_1475641.jpg?q=75" class="img-thumbnail" alt="...">
+        </div>
+            
+        </div>
+        </section>
+
+        <hr>
+
+        <section id="sec6">
+
+        <div class="container">
+
+        <div class="col-md-8"><h2>Mileage</h2></div>
+        Lamborghini Huracan Evo mileage claimed by ARAI is 7.25 kmpl.
+        <table class="table" id="box2">
+
+            <thead id="head">
+
+              <tr>
+
+               
+
+                <th scope="col">Fuel Type</th>
+
+                <th scope="col">Transmission</th>
+
+                <th scope="col">ARAI Mileage</th>
+
+             
+
+              </tr>
+
+            </thead>
+
+            <tbody>
+
+              <tr>
+
+                <td>Petrol</td>
+
+                <td>Automatic(DCT)</td>
+
+                <td>7.25kmpl</td>
+
+
+              </tr>
+
+            </tbody>
+
+          </table>
+
+          </div>
+
+        </section>           
+
+      </div>
+
+</body>
+
+</html>
