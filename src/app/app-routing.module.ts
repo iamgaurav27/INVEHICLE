@@ -1,13 +1,13 @@
+
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FerrariComponent } from './gallery/ferrari/ferrari.component';
+import { RollsroyceComponent } from './brands/rollsroyce/rollsroyce.component';
+const routes: Routes = [ {path: '', component:RollsroyceComponent},
+{ path: 'Gallery', loadChildren: () => import('./gallery/gallery.module').then(m => m.GalleryModule) },
+  { path: 'brands', loadChildren: () => import('./brands/brands.module').then(m => m.BrandsModule) },
+  { path: 'learnMore', loadChildren: () => import('./learn-more/learn-more.module').then(m => m.LearnMoreModule) }];
 
-
-
-
-const routes: Routes = [{ path: 'Gallery', loadChildren: () => import('./gallery/gallery.module').then(m => m.GalleryModule) },
-                        {path : '', component : FerrariComponent}
-];
 
 
 @NgModule({
