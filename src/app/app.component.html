@@ -1,3 +1,4 @@
+      
 <!DOCTYPE html>
 <html lang="en">
 
@@ -101,16 +102,17 @@
       <div class="container-fluid">
         <img class="logo-img" src="../assets/logo.jpg"
           width="130" height="40" ALT="align box" ALIGN=CENTER>
+          <a class="nav-link active " aria-current="page" href="#" style="font-size: 30px;">INVehicle</a>
           
         <!-- <a class="navbar-brand" href="#">INVehicle</a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse "  id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active " aria-current="page" href="#" style="font-size: 30px;">INVehicle</a>
+              <!-- <a class="nav-link active " aria-current="page" href="#" style="font-size: 30px;">INVehicle</a> -->
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
@@ -119,7 +121,7 @@
               <a class="nav-link disabled"></a>
             </li>
           </ul>
-          <p>
+          <p style="margin: 3px;">
             <a class="button-64" href="#" role="button"><span class="text">SignUp Today</span></a>
             <!-- <button class="button-64" role="button" href="#"><span class="text">SignUp</span></button> -->
           </p>
@@ -134,18 +136,14 @@
     </nav>
   </header>
 
+  <main>
+    
+ <router-outlet (activate)="onActive()"></router-outlet>
+
+
+  </main>
   
-    <main>
-      <router-outlet (activate)="onActive()"></router-outlet>
-    </main>
-  <!-- FOOTER -->
-  <!-- <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>
-        &copy; 2017–2022 Company, Inc. &middot;
-        <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
-      </p>
-    </footer> -->
+  
     <footer class="bg-dark">
       <div class="container">
         <div class="row">
@@ -164,6 +162,9 @@
           <div class="col-lg-4 col-md-12">
             <h4 class="text-light">Social Media</h4>
             <p class="text-light">Follow us on social media to stay up to date on our latest deals and inventory.</p>
+             <div class="col-lg-4 col-md-12">
+            <h4 class="text-light">Social Media</h4>
+            <p class="text-light">Follow us on social media to stay up to date on our latest deals and inventory.</p>
             <div class="d-flex flex-row justify-content-center socialIcon">
               <a href="#"
               ><img src="..\assets\facebook-icon.png" alt=""
@@ -179,6 +180,7 @@
             /></a>
             </div>
           </div>
+     
         </div>
         <div class="row">
           <div class="col-12">
@@ -192,5 +194,6 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 </body>
+
 
 </html>
