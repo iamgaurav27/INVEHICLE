@@ -14,7 +14,7 @@
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 40rem;
     // background-image: url(../assets/TECHNOLOGY-1000x500-360_screen.webp);
   }
   
@@ -70,5 +70,11 @@
     .featurette-heading {
       margin-top: 7rem;
     }
+  }
+
+  .cor3{
+    
+      text-shadow: 2px 2px black;
+    
   }
 
