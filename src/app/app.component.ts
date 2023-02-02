@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CarLaunch';
-}
 
+  onActive(){
+    window.scroll(0,0);
+  }
+}
