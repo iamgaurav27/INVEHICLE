@@ -177,10 +177,12 @@
                   Inventory
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Rollsroyce</a></li>
-                  <li><a class="dropdown-item" href="#">Ferrari</a></li>
+                  <div *ngFor="let bd of brandData">
+                    <li><a class="btn dropdown-item" (click)="resetPage(bd.id)" (click)="refresh()">{{ bd.brandName }}</a></li>
+                  </div>
+                  <!-- <li><a class="dropdown-item" href="#">Ferrari</a></li> [routerLink]="['/brand', bd.id]"
                   <li><a class="dropdown-item" href="#">Lamborghini</a></li>
-                  <li><a class="dropdown-item" href="#">Jaguar</a></li>
+                  <li><a class="dropdown-item" href="#">Jaguar</a></li> -->
                 </ul>
               </li>
 
@@ -213,6 +215,8 @@
       </nav>
     </header>
 
+    <br>
+
     <main>
       <router-outlet (activate)="onActive()"></router-outlet>
     </main>
@@ -244,10 +248,10 @@
             </p>
 
             <div class="d-flex flex-row justify-content-center socialIcon">
-              <a href="#"><img src="..\assets\facebook-icon.png" alt="" /></a>
-              <a href="#"><img src="..\assets\instagram-icon.png" alt="" /></a>
-              <a href="#"><img src="..\assets\whatsapp-icon.png" alt="" /></a>
-              <a href="#"><img src="..\assets\twitter-icon.png" alt="" /></a>
+              <a href="#"><img src="..\assets\socialIcon\facebook-icon.png" alt="" /></a>
+              <a href="#"><img src="..\assets\socialIcon\instagram-icon.png" alt="" /></a>
+              <a href="#"><img src="..\assets\socialIcon\whatsapp-icon.png" alt="" /></a>
+              <a href="#"><img src="..\assets\socialIcon\twitter-icon.png" alt="" /></a>
             </div>
           </div>
         </div>
