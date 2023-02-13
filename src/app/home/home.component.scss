@@ -221,40 +221,7 @@ body {
     padding: 0;
     list-style-type: none;
   }
-  // .why {
-  //   position: relative;
-  //   display: block;
-  //   height: 100%;  
-  //   border-radius: calc(var(--curve) * 1px);
-  //   overflow: hidden;
-  //   text-decoration: none;
-  //   background-color: black;
-  //   color: white;
-  // }
-  // .why{
-  //   height: 500px;
-  //   width: 377px;
-  //   padding: 20px 35px;
-  //   background: #191919;
-  //   border-radius: 20px;
-  //   margin: 15px;
-  //   position: relative;
-  //   overflow: hidden;
-  //   text-align: center;
-  //   color: white;
-  // }
-  // .why:hover {
-  //   background-color: transparent;
-  //   border: 2px solid #f9004d;
-  //   cursor: pointer;
-  // }
-  // .why image {      
-  //   width: 90%;
-  //   // height:auto;
-  //   height:fit-content;
-    
-    
-  // }
+
   .buy{
     background-color: black;
     width: 100%;
@@ -280,6 +247,7 @@ body {
     position: relative;
     overflow: hidden;
     text-align: center;
+    right: -40px;
     
   }
   .card1:hover{
@@ -347,7 +315,7 @@ body {
   .card2{
     height: auto;
     width: auto;
-    left: -70px;
+    // left: -25px;
     padding:  25px;
     // background: #191919;
     border-radius: 15px;
@@ -358,6 +326,8 @@ body {
     color: white;
     font-size: 18px;
     justify-content:center;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     
   }
   
