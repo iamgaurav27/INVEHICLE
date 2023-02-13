@@ -324,8 +324,9 @@ body {
     overflow: hidden;
     text-align: center;
     color: white;
-    font-size: 18px;
-    justify-content:center;
+    font-size: 22px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content:first baseline;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     
