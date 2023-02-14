@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    // background-color: #f8f9fa;
-    background-color: black;
+    
+    // background-color: black;
+    background-image: linear-gradient( to bottom right,rgb(0, 0, 0), rgb(55, 38, 73) );
     
   }
   
@@ -95,7 +96,7 @@ body {
   
   .c {
     font-family: 'Noto Sans JP', sans-serif;
-    background-color: black;
+    // background-color: black;
   }
   
   .cards {
@@ -223,7 +224,7 @@ body {
   }
 
   .buy{
-    background-color: black;
+    // background-color: black;
     width: 100%;
     padding: 100px 0px;
   }
@@ -241,7 +242,7 @@ body {
     height: 500px;
     width: 377px;
     padding: 20px 35px;
-    background: #191919;
+    // background: #191919;
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -342,6 +343,7 @@ body {
     position: relative;
     overflow: hidden;
     text-align: center;
+    right: -80px;
     
   }
   .card2:hover{
