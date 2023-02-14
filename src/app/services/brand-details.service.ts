@@ -8,7 +8,7 @@ export class BrandDetailsService {
 
   brandDetails = [
     {
-      id: 'Ferrari',
+      id: 1,
       brandName: 'Ferrari',
       brandModel: '488',
       brandLogo: '../assets/ferBrand/ferrari_logo.png',
@@ -36,7 +36,7 @@ export class BrandDetailsService {
       brandFeature3Img: '../assets/ferBrand/ferrari_4886.jpg',
     },
     {
-      id: 'Jaguar',
+      id: 2,
       brandName: 'Jaguar',
       brandModel: 'XF',
       brandLogo: '../assets/jaguBrand/jaguar_logo.png',
@@ -65,7 +65,7 @@ export class BrandDetailsService {
       brandFeature3Img: '../assets/jaguBrand/jaguar_xf6.jpg',
     },
     {
-      id: 'Lamborghini',
+      id: 3,
       brandName: 'Lamborghini',
       brandModel: 'Aventador',
       brandLogo: '../assets/lambBrand/lamborghini_logo.png',
@@ -94,7 +94,7 @@ export class BrandDetailsService {
       brandFeature3Img: '../assets/lambBrand/lamborghini_aventador6.avif',
     },
     {
-      id: 'Rolls-Royce',
+      id: 4,
       brandName: 'Rolls-Royce',
       brandModel: 'Phantom',
       brandLogo: '../assets/rollesBrand/rolls_royce_logo.png',
