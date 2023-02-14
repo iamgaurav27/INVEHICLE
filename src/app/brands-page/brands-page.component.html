@@ -116,8 +116,7 @@
               <p>
                 <a
                   class="btn btn-lg btn-primary"
-                  routerLink="/Gallery/ferrari"
-                  routerLinkActive="active"
+                  [routerLink]="['/gallery', brandData[0].id]"
                   >Browse gallery</a
                 >
               </p>
