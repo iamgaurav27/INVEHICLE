@@ -2,18 +2,30 @@
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
+import { BrandsPageComponent } from './brands-page/brands-page.component';
+import { GalleryComponent } from './gallery/gallery.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+   
+    HomeComponent,
+         BrandsPageComponent,
+         GalleryComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
