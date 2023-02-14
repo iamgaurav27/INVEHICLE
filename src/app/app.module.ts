@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { BrandsPageComponent } from './brands-page/brands-page.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { GalleryComponent } from './gallery/gallery.component';
    
     HomeComponent,
          BrandsPageComponent,
-         GalleryComponent
+         GalleryPageComponent
 
   ],
   imports: [

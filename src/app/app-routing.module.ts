@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrandsPageComponent } from './brands-page/brands-page.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -17,7 +17,7 @@ const routes: Routes = [
       ),
   },
   { path: 'brand/:id', component: BrandsPageComponent },
-  {path :'gallery/:Id', component : GalleryComponent},
+  {path :'gallery/:Id', component : GalleryPageComponent},
   { path: '**', component: PageNotFoundComponent },
 ];
 @NgModule({

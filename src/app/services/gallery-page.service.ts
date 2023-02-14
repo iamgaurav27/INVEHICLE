@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class GalleryPageService {
 
   constructor() { }
-    gallery = [
+  gallery = [
     {
       Id : 'Ferrari', 
       path1: "../assets/ferGallery/1.jpg",
