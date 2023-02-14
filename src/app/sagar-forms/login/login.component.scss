@@ -10,12 +10,13 @@ form {
     height: 100vh;
     width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     background-image: url(/src/assets/pexels-pixabay-94272.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    color: white;
   }
   .form-label {
     margin-top: .33em;
@@ -30,5 +31,5 @@ form {
     //     rgb(55, 38, 73)
     //   );
     background-color: transparent;
-      left: -40px;
+      
    }
