@@ -111,9 +111,9 @@
           <h2>Available Brands</h2>
         </div><br><br>
         <ul class="cards">
-          <li>
-            <a href="" class="card">
-              <img src="./assets/Image2.jpg" class="card__image" alt="" />
+          <li *ngFor="let bd of brandData">
+            <a [routerLink]="['/brand', bd.id]" class="card">
+              <img src="{{ bd.brandCarousel1 }}" class="card__image" alt="" />
               <div class="card__overlay">
                 <div class="card__header">
                   <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
@@ -121,21 +121,21 @@
                   </svg>
                   <img
                     class="card__thumb"
-                    src="./assets/rolls_royce_logo.png"
+                    src="{{ bd.brandLogo }}"
                     alt=""
                   />
                   <div class="card__header-text">
-                    <h3 class="card__title">Rolls Royce</h3>
+                    <h3 class="card__title">{{ bd.brandName }}</h3>
                   </div>
                 </div>
                 <p class="card__description">
-                  Delivering Complex Power Solutions..
+                  {{ bd.brandLogoText }}
                 </p>
               </div>
             </a>
           </li>
 
-          <li>
+          <!-- <li>
             <a href="" class="card">
               <img src="./assets/ferr2.jpg" class="card__image" alt="" />
               <div class="card__overlay">
@@ -200,7 +200,7 @@
                 <p class="card__description">Grace…, Space… Pace.</p>
               </div>
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </main>
