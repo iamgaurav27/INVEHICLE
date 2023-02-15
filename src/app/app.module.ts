@@ -10,8 +10,10 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { BrandsPageComponent } from './brands-page/brands-page.component';
+
 import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 import { LearnMorepageComponent } from './learn-morepage/learn-morepage.component';
+
 
 @NgModule({
   declarations: [
@@ -19,8 +21,10 @@ import { LearnMorepageComponent } from './learn-morepage/learn-morepage.componen
    
     HomeComponent,
          BrandsPageComponent,
+
          GalleryPageComponent,
          LearnMorepageComponent
+
 
   ],
   imports: [

@@ -1,3 +1,4 @@
+
 import { TestBed } from '@angular/core/testing';
 
 import { GalleryPageService } from './gallery-page.service';
@@ -14,3 +15,4 @@ describe('GalleryPageService', () => {
     expect(service).toBeTruthy();
   });
 });
+
