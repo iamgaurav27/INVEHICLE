@@ -4,6 +4,9 @@ import { BrandsPageComponent } from './brands-page/brands-page.component';
 import { GalleryPageComponent } from './gallery-page/gallery-page.component';
 
 import { HomeComponent } from './home/home.component';
+
+import { LearnMorepageComponent } from './learn-morepage/learn-morepage.component';
+
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
@@ -18,6 +21,9 @@ const routes: Routes = [
   },
   { path: 'brand/:id', component: BrandsPageComponent },
   {path :'gallery/:Id', component : GalleryPageComponent},
+
+  {path :'learnMorepage/:id', component : LearnMorepageComponent},
+
   { path: '**', component: PageNotFoundComponent },
 ];
 @NgModule({

@@ -1,3 +1,4 @@
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GalleryPageComponent } from './gallery-page.component';
@@ -21,3 +22,4 @@ describe('GalleryPageComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
