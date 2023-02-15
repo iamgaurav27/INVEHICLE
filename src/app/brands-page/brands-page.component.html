@@ -83,8 +83,9 @@
               <p>
                 <a
                   class="btn btn-lg btn-primary"
-                  routerLink="/learnMore/ferrari"
-                  routerLinkActive="active"
+
+                  [routerLink]="['/learnMorepage', brandData[0].id]"
+
                   style="right: 2%; position: relative"
                   >Learn more</a
                 >
@@ -215,7 +216,9 @@
         >
           &nbsp;
         </div>
-        <div class="columns content">
+
+        <div class="columns content" style="padding-bottom: 50px;">
+
           <div class="content-container">
             <h1>{{ brandData[0].brandFeature3Title }}</h1>
             <p>{{ brandData[0].brandFeature3Text }}</p>

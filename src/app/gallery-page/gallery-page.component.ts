@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GalleryPageService } from '../services/gallery-page.service';
@@ -25,3 +26,4 @@ export class GalleryPageComponent {
 
   }
 }
+
