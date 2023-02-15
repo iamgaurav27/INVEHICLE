@@ -47,7 +47,7 @@ export class BrandDetailsService {
       brandCarousel1: '../assets/jaguBrand/jaguar_xf1.webp',
       brandCarousel1Text2:
         "Grace…, Space… Pace. Unleash a Jaguar. Don't dream it. Drive it!",
-      brandCarousel2: '../assets/jaguBrand/jaguar_xf2.jpg',
+      brandCarousel2: '../assets/jaguBrand/Jagcor.jpg',
       brandCarousel2Text: 'Delivering Complex Power Solutions..',
       brandCarousel3: '../assets/jaguBrand/jaguar_xf_3.jpg',
       brandCarousel3Text: 'Take the Best that Exists.',
@@ -55,6 +55,7 @@ export class BrandDetailsService {
       brandFeature1Text:
         "The XF is an evolution of the original J-Blade design pioneered in the X250 XF, with a largely similar silhouette. Effort was made to build a uniform design language across Jaguar's saloon range.",
       brandFeature1Img: '../assets/jaguBrand/jaguar_xf_4.jpg',
+      
       brandFeature2Title: 'Impressive Engine',
       brandFeature2Text:
         "If you are eyeing the XF 20t, chances are that you are looking forward to what's under the hood more than rear seat space or cabin quality. In that case, the XF gets a 1997cc, four-cylinder engine that makes 200bhp. There's 320Nm on tap from low revs, however, the XF doesn't hurl itself out of the block like the smaller XE-blame it on the added weight.",
